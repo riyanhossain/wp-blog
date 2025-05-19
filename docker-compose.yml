@@ -31,7 +31,7 @@ services:
       # WORDPRESS_HOME: http://localhost:8080
     volumes:
       # Mounts the custom theme for live development (reflects local changes immediately)
-      - ./wp-content/themes/blog:/var/www/html/wp-content/themes/blog
+      - ./wp-content/themes/blog-theme:/var/www/html/wp-content/themes/blog-theme
       # Optional: Mount entire wp-content if you want to persist uploads, other themes, plugins etc.
       # - ./wp-content:/var/www/html/wp-content
     networks:
